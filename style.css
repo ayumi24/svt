@@ -5,7 +5,9 @@
 }
 
 .header{
+  height: 60px;
   color: white;
+  line-height: 60px;
   text-align: center;
   background-color: #66ccff;
 }

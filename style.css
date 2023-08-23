@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  color: white;
+  text-align: center;
+  background-color: #66ccff;
+}
+
+.member-title, .member-text{
+  text-align: center;
+}
+
+.member-group{
+  display: flex;
+  flex-flow: row wrap;
+  width: 920px;
+  margin: 0 auto;
+}
+
+.member{
+  display: flex;
+  width: 100%;
+}
+
+.photo{
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-image: url(./img/no_image.jpg);
+}
+
+.detail{
+  margin-top: auto;
+  margin-bottom: auto;
+}

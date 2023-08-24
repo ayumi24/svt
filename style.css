@@ -14,12 +14,21 @@ header{
   color: white;
   line-height: 60px;
   text-align: center;
-  background-color: #66ccff;
+  background-color: #7A9FD3;
 }
 
-.member-title, .member-text{
+.heading, .member-text{
   margin-top: 10px;
   text-align: center;
+}
+
+.heading::after{
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  margin: 8px auto 0 auto;
+  background-color: #7A9FD3;
 }
 
 .member-group{
@@ -39,11 +48,13 @@ header{
   width: 150px;
   height: 150px;
   background-size: cover;
+  border-radius: 50%;
   background-image: url(./img/no_image.jpg)
 }
 
 .detail{
   margin-top: auto;
+  margin-left: 18px;
   margin-bottom: auto;
 }
 
@@ -54,4 +65,12 @@ footer{
   color: white;
   text-align: center;
   background-color: #EF94BD;
+}
+
+.p-1{
+  background-image: url(./img/sakuranbo.png)
+}
+
+.p-2{
+  background-image: url(./img/usagi.webp)
 }
